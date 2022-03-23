@@ -1,4 +1,4 @@
-#FROM <imagen> especifica la imagen a utilizar como base
+﻿#FROM <imagen> especifica la imagen a utilizar como base
 FROM node:erbium-alpine
 
 # Config
@@ -24,4 +24,4 @@ EXPOSE 3000
 #CMD <comando> (requerido) ejecuta el comando en el momento de ejecución del contenedor.
 CMD ["sh", "-c", "date ; npm start "]
 
-#byRoxsRoss
+#bypato
